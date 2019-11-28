@@ -1,4 +1,8 @@
 const { checkDate, checkNumber, schema } = require("../helpers/validator");
+
+/**
+ * Calls the error middleware if validator throws a error.
+ */
 exports.recordsValidation = function(req, res, next) {
   try {
     const validate = schema({

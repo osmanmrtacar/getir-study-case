@@ -1,5 +1,8 @@
 const db = require("../models");
-
+/**
+ * Creates totalCount field that is sum of the counts array.
+ * Filters the records by startDate, endDate, minCount and maxCount
+ */
 exports.filterRecords = async function(req, res, next) {
   try {
     let response = await db.Record.aggregate([
