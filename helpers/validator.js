@@ -17,7 +17,7 @@ exports.checkNumber = validateThat(function(value) {
 
 exports.checkDate = validateThat(function(value) {
   try {
-    return value.match(/([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/);
+    return value.match(/^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))$/);
   } catch (error) {
     throw new ErrorHandler("must be string and yyyy-mm-dd");
   }
