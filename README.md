@@ -2,8 +2,8 @@
 
 | Parameters | Description |
 | ------ | ----------- |
-| startDate   | Date (YYYY-MM-DD) (between 1000 and 2999) |
-| endDate | Date (YYYY-MM-DD (between 1000 and 2999)|
+| startDate   | Date (YYYY-MM-DD) YYYY is between 1000 and 2999 |
+| endDate | Date (YYYY-MM-DD) YYYY is between 1000 and 2999 |
 | minCount    | number |
 | maxCount    | number |
 
