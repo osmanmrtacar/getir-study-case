@@ -1,4 +1,6 @@
-` /api/records`
+`npm start` or `node server.js`
+
+`/api/records`
 
 | Parameters | Description |
 | ------ | ----------- |
